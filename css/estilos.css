@@ -351,6 +351,23 @@ form input:focus {
 
 /* Fin Newsletter */
 
+/* Inicio Formulario Contacto */
+
+.form-contacto{
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.904);
+}
+
+.form-contacto input{
+    width: 300px;
+}
+
+.maps{
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.904);
+}
+
+/* Fin Formulario Contacto */
 
 
 @media (max-width: 576px) {
