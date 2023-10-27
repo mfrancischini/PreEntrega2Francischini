@@ -35,7 +35,7 @@
 .btn {
     height: 30px;
     align-self: center;
-    border:none;
+    border: none;
 }
 
 .boton a {
@@ -67,6 +67,8 @@ button i:hover {
 .boxfooter {
     height: auto;
     background-color: var(--color-footer);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.482);
+
 }
 
 .footer-prim {
@@ -101,46 +103,6 @@ button i:hover {
 
 .redes {
     align-self: center;
-}
-
-footer .data {
-    width: 96%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin: auto;
-    padding: 28px 0px;
-    border-bottom: 1px solid var(--color-secundario);
-}
-
-footer .data li {
-    display: flex;
-    align-items: flex-start;
-    color: #FFF;
-}
-
-footer .data li img {
-    width: 36px;
-    margin-right: 12px;
-}
-
-footer .data li h6 {
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 700;
-    margin-bottom: 0px;
-}
-
-footer .data li a,
-footer .data li p {
-    color: #FFF;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-footer .data li a:hover {
-    text-decoration: underline;
 }
 
 /* Fin Footer */
@@ -368,26 +330,41 @@ del {
 /* Fin Productos */
 
 /* Newsletter */
-.newsletter{
+.newsletter {
     background-color: var(--color-footer);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.904);
 }
+
+form input:focus {
+    border: 1px solid var(--color-secundario) !important;
+    box-shadow: none !important;
+}
+.form-news{
+    text-align: center;
+    padding: 20px;
+}
+.form-news input{
+
+    width: 300px;
+
+}
+
 /* Fin Newsletter */
 
 
 
-    @media (max-width: 576px) {
+@media (max-width: 576px) {
 
-        /* ocupo el maximo del ancho en version sm */
-        .producto {
-            width: 100%;
-        }
+    /* ocupo el maximo del ancho en version sm */
+    .producto {
+        width: 100%;
     }
+}
 
-    @media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
 
-        /* Agrega tus estilos específicos para "md" aquí */
-        .producto {
-            width: 100%;
-        }
+    /* Agrega tus estilos específicos para "md" aquí */
+    .producto {
+        width: 100%;
     }
+}
