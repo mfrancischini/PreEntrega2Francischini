@@ -377,6 +377,24 @@ form input:focus {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.904);
 }
 
+/* Bloque Novedades Home */
+
+.btn-nov{
+    width: 100px;
+    border-radius: 5px;
+    color:#000;
+    background-color: var(--color-footer);
+}
+
+.btn-nov:hover{
+    background-color: var(--color-secundario);
+    color: #FFF;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+
+
+
 
 /* Fin Formulario Contacto */
 
