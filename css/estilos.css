@@ -339,11 +339,13 @@ form input:focus {
     border: 1px solid var(--color-secundario) !important;
     box-shadow: none !important;
 }
-.form-news{
+
+.form-news {
     text-align: center;
     padding: 20px;
 }
-.form-news input{
+
+.form-news input {
 
     width: 300px;
 
@@ -353,7 +355,7 @@ form input:focus {
 
 /* Inicio Formulario Contacto */
 
-.form-contacto{
+.form-contacto {
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.904);
     text-align: center;
@@ -361,40 +363,36 @@ form input:focus {
     max-width: 400px;
 }
 
-.form-contacto button{
+.form-contacto button {
     background-color: var(--color-footer);
     border: 1px solid var(--color-secundario) !important;
 }
 
-.form-contacto button:hover{
+.form-contacto button:hover {
     background-color: var(--color-secundario);
     color: #FFF;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
 }
 
-.maps{
+.maps {
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.904);
 }
 
 /* Bloque Novedades Home */
 
-.btn-nov{
+.btn-nov {
     width: 100px;
     border-radius: 5px;
-    color:#000;
+    color: #000;
     background-color: var(--color-footer);
 }
 
-.btn-nov:hover{
+.btn-nov:hover {
     background-color: var(--color-secundario);
     color: #FFF;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
 }
-
-
-
-
 
 /* Fin Formulario Contacto */
 
