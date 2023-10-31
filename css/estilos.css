@@ -406,15 +406,12 @@ form input:focus {
 
 @media (max-width: 576px) {
 
-    /* ocupo el maximo del ancho en version sm */
     .producto {
         width: 100%;
     }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-
-    /* Agrega tus estilos específicos para "md" aquí */
     .producto {
         width: 100%;
     }
