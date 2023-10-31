@@ -416,3 +416,11 @@ form input:focus {
         width: 100%;
     }
 }
+
+@media (max-width: 576px) {
+    .maps {
+        width: 90%;
+    }
+}
+
+
