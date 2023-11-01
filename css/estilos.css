@@ -513,11 +513,12 @@ form input:focus {
 }
 
 /* aplica desde 0 hasta 468px */
+/* Se acomodan las imagenes de la galeria en la vista en 1 col y 12 row */
 @media only screen and (max-width: 468px) {
     .contenedor-imagenes {
         background-color: var(--color-principal);
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 250px);
+        grid-template-rows: repeat(12, 250px);
         grid-template-areas:
             "img1"
             "img2"
@@ -527,6 +528,10 @@ form input:focus {
             "img6"
             "img7"
             "img8"
+            "img9"
+            "img10"
+            "img11"
+            "img12"
         ;
         grid-gap: 15px;
         padding: 30px;
@@ -537,6 +542,7 @@ form input:focus {
 
 }
 
+/* Se acomodan las imagenes de la galeria en la vista en 2 col y 6 row */
 @media only screen and (min-width: 469px) and (max-width: 767px) {
     .contenedor-imagenes {
         background-color: var(--color-principal);
